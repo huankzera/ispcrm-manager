@@ -1,0 +1,38 @@
+/* core/static/css/style.css */
+
+/* Fundo da página levemente mais escuro para destacar os cards */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar com gradiente personalizado */
+.navbar {
+    background: linear-gradient(90deg, #0d6efd 0%, #0a58ca 100%);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Efeito de hover (mouse em cima) nos cards */
+.card-kpi {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+}
+
+.card-kpi:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Personalização do Rodapé (Sua Assinatura) */
+.footer-dev {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #6c757d;
+    font-size: 0.9rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer-dev strong {
+    color: #0d6efd; /* Azul do Bootstrap */
+}
